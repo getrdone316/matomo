@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c3cad958b7cbc5cd9133b1facf607ac",
+    "content-hash": "03d97c7fe8364ad92a42d3f1b318830a",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1207,16 +1207,16 @@
         },
         {
             "name": "piwik/network",
-            "version": "0.2.1",
+            "version": "dev-rename",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matomo-org/component-network.git",
-                "reference": "fb847317b79fe41d52f5eb5fd92f197df4538b7d"
+                "reference": "c8a726508d720b26aba564f517ebd181c23405c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matomo-org/component-network/zipball/fb847317b79fe41d52f5eb5fd92f197df4538b7d",
-                "reference": "fb847317b79fe41d52f5eb5fd92f197df4538b7d",
+                "url": "https://api.github.com/repos/matomo-org/component-network/zipball/c8a726508d720b26aba564f517ebd181c23405c3",
+                "reference": "c8a726508d720b26aba564f517ebd181c23405c3",
                 "shasum": ""
             },
             "require": {
@@ -1228,14 +1228,14 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Piwik\\Network\\": "src/"
+                    "Matomo\\Network\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "LGPL-3.0"
             ],
-            "time": "2019-11-06T19:13:42+00:00"
+            "time": "2019-12-09T14:01:32+00:00"
         },
         {
             "name": "piwik/piwik-php-tracker",
@@ -3268,6 +3268,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "leafo/lessphp": 20,
+        "piwik/network": 20,
         "davaxi/sparkline": 20,
         "facebook/xhprof": 20
     },
